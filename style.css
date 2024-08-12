@@ -24,6 +24,7 @@ nav{
 }
 nav h1{
     font-size: 38px;
+    color: rgb(136, 63, 136);
 }
 nav h1 i{
     font-size: 45px;
@@ -47,4 +48,45 @@ nav button{
     align-items: center;
     justify-content: space-around;
     gap: 50px;
+}
+.center{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.center-part1{
+    margin-top: 50px;
+    padding: 30px;
+    height: 100%;
+    width: 35%;
+}
+.center-part1 h1{
+    font-size: 50px;
+    color: rgb(184, 84, 184);
+}
+.center-part1 p{
+    margin-top: 50px;
+    font-size: 18px;
+    color: rgb(196, 127, 196);
+}
+.center-part1 button{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(229, 198, 229);
+    color: black;
+    font-family: 'Space Mono';
+    font-weight: 900;
+}
+.center-part2{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-part2 img{
+    height: 500px;
 }
