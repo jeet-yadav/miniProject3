@@ -25,6 +25,11 @@ nav{
 nav h1{
     font-size: 38px;
 }
+nav h1 i{
+    font-size: 45px;
+    display: inline-block;
+    rotate: 45deg;
+}
 nav h4{
     font-size: 18px;
 }
