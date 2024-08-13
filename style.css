@@ -10,6 +10,7 @@ body{
     background-color: #0D1117;
     color: purple;
     font-family: 'Space Mono';
+    overflow-x: hidden;
 }
 section{
     height: 100%;
@@ -113,4 +114,70 @@ nav button{
 }
 #zoom{
     height: 27px;
+}
+/* SECTION 2 BELOW */
+.section2 .services{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.services h3{
+    background-color: #A6E481;
+    font-size: 30px;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.services p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(196, 127, 196);
+}
+.container{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.elem{
+    background-color: bisque;
+    flex-shrink: 0;
+    height: 290px;
+    width: 46%;
+    border-radius: 40px;
+    margin: 25px 10px;
+    box-sizing: border-box;
+    padding: 24px 22px;
+}
+.lboxes h2{
+    padding: 2px 5px;
+    display: inline;
+    background-color: #A6E481;
+    border-radius: 10px;
+    color: #1F1F1F;
+    font-weight: 500;
+}
+.rboxes h2{
+    padding: 2px 5px;
+    display: inline;
+    background-color: white;
+    border-radius: 10px;
+    color: #1F1F1F;
+    font-weight: 500;
+}
+.container #box1{
+    background-color: white;
+    box-shadow: 8px 8px 0px purple;
+}
+.container #box2{
+    background-color: #1F1F1F;
+}
+.container #box3{
+    background-color: #1F1F1F;
+}
+.container #box4{
+    background-color: white;
+    box-shadow: 8px 8px 0px purple;
 }
