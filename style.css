@@ -36,12 +36,13 @@ nav h4{
 }
 nav button{
     background-color: purple;
-    height: 23px;
+    height: 25px;
     color: rgb(198, 163, 234);
+    color: white;
     font-family: 'Space Mono';
     border-radius: 5px;
     border: none;
-    padding: 0 10px;
+    padding: 0px 10px 2px 10px;
 }
 .part2{
     display: flex;
@@ -57,8 +58,9 @@ nav button{
 .center-part1{
     margin-top: 50px;
     padding: 30px;
-    height: 100%;
+    height: 73.1%;
     width: 35%;
+
 }
 .center-part1 h1{
     font-size: 50px;
@@ -81,12 +83,34 @@ nav button{
     font-weight: 900;
 }
 .center-part2{
-    height: 100%;
+    height: 90%;
     width: 65%;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .center-part2 img{
+    position: absolute;
     height: 500px;
+}
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40px;
+}
+.section1bottom img{
+    height: 40px;
+    filter:grayscale(100%);
+}
+#amazon{
+    /* png's are not of same size so here goes adjusting */
+    filter:grayscale(80%);
+    padding-top: 20px;
+    height: 90px;
+}
+#zoom{
+    height: 27px;
 }
