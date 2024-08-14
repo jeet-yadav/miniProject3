@@ -1,4 +1,5 @@
-var tl = gsap.timeline()
+function page1Animation(){
+    var tl = gsap.timeline()
 tl.from("nav h1, nav h4, nav button",{
     y:-15,
     opacity:0,
@@ -28,3 +29,29 @@ tl.from(".section1bottom img",{
     y:30,
     stagger:0.15,
 })
+}
+function page2Animation(){
+    var tl2 = gsap.timeline({
+        scrollTrigger:{
+            trigger:".section2",
+            scroller:"body",
+            // markers:true,
+            start: "top 50%",
+            end: "top 0",
+            scrub:2,
+        }
+    })
+    
+    tl2.from(".services",{
+        x:-300,
+        opacity:0
+    })
+    tl2.from("#box1, #box2",{
+        x:-300
+    })
+    tl2.from("#box3, #box4",{
+        x:300
+    })
+}
+page1Animation()
+page2Animation()
