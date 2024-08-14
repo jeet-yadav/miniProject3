@@ -151,7 +151,7 @@ nav button{
     box-sizing: border-box;
     padding: 24px 22px;
 }
-.lboxes h2{
+/* .lboxes h2{
     padding: 2px 5px;
     display: inline;
     background-color: #A6E481;
@@ -161,8 +161,20 @@ nav button{
 }
 .rboxes h2{
     padding: 2px 5px;
-    display: inline;
+    width: 200px;
     background-color: white;
+    border-radius: 10px;
+    color: #1F1F1F;
+    font-weight: 500;
+} */
+.text{
+    height: 73px;
+    width: 250px;
+}
+.text h2{
+    padding: 2px 5px;
+    display: inline;
+    background-color: #A6E481;
     border-radius: 10px;
     color: #1F1F1F;
     font-weight: 500;
@@ -180,4 +192,22 @@ nav button{
 .container #box4{
     background-color: white;
     box-shadow: 8px 8px 0px purple;
+}
+.rboxes h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #A6E481;
+}
+.lboxes h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 }
