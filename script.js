@@ -53,5 +53,26 @@ function page2Animation(){
         x:300
     })
 }
-page1Animation()
-page2Animation()
+// page1Animation()
+// page2Animation()
+function navAnimation(){
+    panelText = document.querySelector(".center-part1 h1");
+    let panelh1 = panelText.textContent;
+    let splittedText = panelh1.split("");
+
+    let clutter = "";
+    splittedText.forEach(function(elem){
+        clutter += `<span>${elem}</span>`;
+    })
+    panelText.innerHTML = clutter;
+    
+    let tl = gsap.timeline();
+    tl.from(" span",{
+        y:20,
+        duration: 0.5,
+        stagger: 0.1,
+        opacity: 0,
+        color: "yellow",
+    });
+}
+navAnimation();
