@@ -53,8 +53,6 @@ function page2Animation(){
         x:300
     })
 }
-// page1Animation()
-// page2Animation()
 function navAnimation(){
     panelText = document.querySelector(".center-part1 h1");
     let panelh1 = panelText.textContent;
@@ -76,3 +74,11 @@ function navAnimation(){
     });
 }
 navAnimation();
+// page1Animation()
+let star = document.querySelector(".ri-shining-2-fill");
+gsap.to(star,{
+    rotate:360,
+    duration:2,
+    ease: 'none',
+    repeat:-1,
+})
